@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MovieNameCell" customModule="MovieApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="361" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="361" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spiderman: No Way Home" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMX-7x-4hM">
+                        <rect key="frame" x="0.0" y="12.000000000000002" width="313" height="21.666666666666671"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="313" id="UUf-lV-qct"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfZ-Vb-yK8">
+                        <rect key="frame" x="315" y="12" width="46" height="28"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="bookmark" catalog="system"/>
+                        <connections>
+                            <action selector="seemoreActionButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="G7B-7Q-4qF"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DfZ-Vb-yK8" secondAttribute="bottom" constant="10" id="3fQ-XS-m1i"/>
+                <constraint firstItem="DfZ-Vb-yK8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="4Tr-CC-s4d"/>
+                <constraint firstAttribute="trailing" secondItem="DfZ-Vb-yK8" secondAttribute="trailing" id="5JU-Jx-A2Q"/>
+                <constraint firstItem="tMX-7x-4hM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ALd-Fb-GbO"/>
+                <constraint firstItem="DfZ-Vb-yK8" firstAttribute="leading" secondItem="tMX-7x-4hM" secondAttribute="trailing" constant="2" id="AxW-Vj-kwO"/>
+                <constraint firstItem="tMX-7x-4hM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="kCh-Vd-zLq"/>
+            </constraints>
+            <size key="customSize" width="330" height="50"/>
+            <connections>
+                <outlet property="movieTitleLabel" destination="tMX-7x-4hM" id="fUq-ZE-17Y"/>
+            </connections>
+            <point key="canvasLocation" x="116.79389312977099" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bookmark" catalog="system" width="110" height="128"/>
+    </resources>
+</document>

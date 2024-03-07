@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9035201B2AE029BF00EE6CF0 /* transfer.json in Resources */ = {isa = PBXBuildFile; fileRef = 9035201A2AE029BF00EE6CF0 /* transfer.json */; };
+		905E38F32ADD676C0011719B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E38F22ADD676C0011719B /* AppDelegate.swift */; };
+		905E38F52ADD676C0011719B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E38F42ADD676C0011719B /* SceneDelegate.swift */; };
+		905E38FA2ADD676C0011719B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905E38F82ADD676C0011719B /* Main.storyboard */; };
+		905E38FC2ADD676D0011719B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905E38FB2ADD676D0011719B /* Assets.xcassets */; };
+		905E38FF2ADD676D0011719B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905E38FD2ADD676D0011719B /* LaunchScreen.storyboard */; };
+		905E39072ADD678A0011719B /* LoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E39062ADD678A0011719B /* LoginPageController.swift */; };
+		905E390E2ADD69990011719B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 905E390D2ADD69990011719B /* Lottie */; };
+		905E39102ADD6AA20011719B /* BankLogo.json in Resources */ = {isa = PBXBuildFile; fileRef = 905E390F2ADD6AA20011719B /* BankLogo.json */; };
+		905E39132ADD6B000011719B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E39122ADD6B000011719B /* User.swift */; };
+		905E39152ADD6CBA0011719B /* registration.json in Resources */ = {isa = PBXBuildFile; fileRef = 905E39142ADD6CBA0011719B /* registration.json */; };
+		905E39192ADD6CE30011719B /* RegistrationPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E39182ADD6CE30011719B /* RegistrationPageController.swift */; };
+		905E391B2ADD6FBC0011719B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E391A2ADD6FBC0011719B /* Menu.swift */; };
+		905E39232ADD71590011719B /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E39222ADD71590011719B /* HomePageController.swift */; };
+		905E392E2ADD758D0011719B /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E392C2ADD758D0011719B /* ListCell.swift */; };
+		905E392F2ADD758D0011719B /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905E392D2ADD758D0011719B /* ListCell.xib */; };
+		905E39322ADD77790011719B /* ProfilePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E39312ADD77790011719B /* ProfilePageController.swift */; };
+		905E39352ADD77900011719B /* TransferPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E39342ADD77900011719B /* TransferPageController.swift */; };
+		905E39382ADD77AF0011719B /* CardsPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E39372ADD77AF0011719B /* CardsPageController.swift */; };
+		905E393A2ADD7A040011719B /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = 905E39392ADD7A040011719B /* profile.json */; };
+		905E393E2ADD86330011719B /* UserLoginFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E393D2ADD86330011719B /* UserLoginFileManager.swift */; };
+		905E39422ADDBCD40011719B /* CardRegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E39412ADDBCD40011719B /* CardRegistrationController.swift */; };
+		905E39442ADDBE5B0011719B /* cardRegister.json in Resources */ = {isa = PBXBuildFile; fileRef = 905E39432ADDBE5B0011719B /* cardRegister.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9035201A2AE029BF00EE6CF0 /* transfer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = transfer.json; path = "../../../Assets/Animations for project/transfer.json"; sourceTree = "<group>"; };
+		905E38EF2ADD676C0011719B /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905E38F22ADD676C0011719B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		905E38F42ADD676C0011719B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		905E38F92ADD676C0011719B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		905E38FB2ADD676D0011719B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905E38FE2ADD676D0011719B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905E39002ADD676D0011719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905E39062ADD678A0011719B /* LoginPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageController.swift; sourceTree = "<group>"; };
+		905E390F2ADD6AA20011719B /* BankLogo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BankLogo.json; sourceTree = "<group>"; };
+		905E39122ADD6B000011719B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		905E39142ADD6CBA0011719B /* registration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = registration.json; sourceTree = "<group>"; };
+		905E39182ADD6CE30011719B /* RegistrationPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageController.swift; sourceTree = "<group>"; };
+		905E391A2ADD6FBC0011719B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		905E39222ADD71590011719B /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		905E392C2ADD758D0011719B /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		905E392D2ADD758D0011719B /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		905E39312ADD77790011719B /* ProfilePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageController.swift; sourceTree = "<group>"; };
+		905E39342ADD77900011719B /* TransferPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferPageController.swift; sourceTree = "<group>"; };
+		905E39372ADD77AF0011719B /* CardsPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsPageController.swift; sourceTree = "<group>"; };
+		905E39392ADD7A040011719B /* profile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profile.json; sourceTree = "<group>"; };
+		905E393D2ADD86330011719B /* UserLoginFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginFileManager.swift; sourceTree = "<group>"; };
+		905E39412ADDBCD40011719B /* CardRegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRegistrationController.swift; sourceTree = "<group>"; };
+		905E39432ADDBE5B0011719B /* cardRegister.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cardRegister.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905E38EC2ADD676C0011719B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E390E2ADD69990011719B /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		905E38E62ADD676C0011719B = {
+			isa = PBXGroup;
+			children = (
+				905E38F12ADD676C0011719B /* BankApp */,
+				905E38F02ADD676C0011719B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		905E38F02ADD676C0011719B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905E38EF2ADD676C0011719B /* BankApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905E38F12ADD676C0011719B /* BankApp */ = {
+			isa = PBXGroup;
+			children = (
+				905E39082ADD678E0011719B /* Login Page */,
+				905E39162ADD6CC20011719B /* Registration Page */,
+				905E39212ADD71470011719B /* Home Page */,
+				905E39362ADD77960011719B /* Cards Page */,
+				905E39332ADD777E0011719B /* Transfer Page */,
+				905E39302ADD775A0011719B /* Profile Page */,
+				905E38F22ADD676C0011719B /* AppDelegate.swift */,
+				905E38F42ADD676C0011719B /* SceneDelegate.swift */,
+				905E38F82ADD676C0011719B /* Main.storyboard */,
+				905E38FB2ADD676D0011719B /* Assets.xcassets */,
+				905E38FD2ADD676D0011719B /* LaunchScreen.storyboard */,
+				905E39002ADD676D0011719B /* Info.plist */,
+				905E393C2ADD85F90011719B /* File Manager */,
+				905E391C2ADD709F0011719B /* List Cell */,
+				905E39092ADD68060011719B /* Animations */,
+				905E39112ADD6AF00011719B /* Data Manager */,
+			);
+			path = BankApp;
+			sourceTree = "<group>";
+		};
+		905E39082ADD678E0011719B /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				905E39062ADD678A0011719B /* LoginPageController.swift */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		905E39092ADD68060011719B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				9035201A2AE029BF00EE6CF0 /* transfer.json */,
+				905E39432ADDBE5B0011719B /* cardRegister.json */,
+				905E39392ADD7A040011719B /* profile.json */,
+				905E390F2ADD6AA20011719B /* BankLogo.json */,
+				905E39142ADD6CBA0011719B /* registration.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		905E39112ADD6AF00011719B /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				905E39122ADD6B000011719B /* User.swift */,
+				905E391A2ADD6FBC0011719B /* Menu.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		905E39162ADD6CC20011719B /* Registration Page */ = {
+			isa = PBXGroup;
+			children = (
+				905E39182ADD6CE30011719B /* RegistrationPageController.swift */,
+			);
+			path = "Registration Page";
+			sourceTree = "<group>";
+		};
+		905E391C2ADD709F0011719B /* List Cell */ = {
+			isa = PBXGroup;
+			children = (
+				905E392C2ADD758D0011719B /* ListCell.swift */,
+				905E392D2ADD758D0011719B /* ListCell.xib */,
+			);
+			path = "List Cell";
+			sourceTree = "<group>";
+		};
+		905E39212ADD71470011719B /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				905E39222ADD71590011719B /* HomePageController.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		905E39302ADD775A0011719B /* Profile Page */ = {
+			isa = PBXGroup;
+			children = (
+				905E39312ADD77790011719B /* ProfilePageController.swift */,
+			);
+			path = "Profile Page";
+			sourceTree = "<group>";
+		};
+		905E39332ADD777E0011719B /* Transfer Page */ = {
+			isa = PBXGroup;
+			children = (
+				905E39342ADD77900011719B /* TransferPageController.swift */,
+			);
+			path = "Transfer Page";
+			sourceTree = "<group>";
+		};
+		905E39362ADD77960011719B /* Cards Page */ = {
+			isa = PBXGroup;
+			children = (
+				905E39372ADD77AF0011719B /* CardsPageController.swift */,
+				905E39412ADDBCD40011719B /* CardRegistrationController.swift */,
+			);
+			path = "Cards Page";
+			sourceTree = "<group>";
+		};
+		905E393C2ADD85F90011719B /* File Manager */ = {
+			isa = PBXGroup;
+			children = (
+				905E393D2ADD86330011719B /* UserLoginFileManager.swift */,
+			);
+			path = "File Manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		905E38EE2ADD676C0011719B /* BankApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905E39032ADD676D0011719B /* Build configuration list for PBXNativeTarget "BankApp" */;
+			buildPhases = (
+				905E38EB2ADD676C0011719B /* Sources */,
+				905E38EC2ADD676C0011719B /* Frameworks */,
+				905E38ED2ADD676C0011719B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankApp;
+			packageProductDependencies = (
+				905E390D2ADD69990011719B /* Lottie */,
+			);
+			productName = BankApp;
+			productReference = 905E38EF2ADD676C0011719B /* BankApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		905E38E72ADD676C0011719B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					905E38EE2ADD676C0011719B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 905E38EA2ADD676C0011719B /* Build configuration list for PBXProject "BankApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 905E38E62ADD676C0011719B;
+			packageReferences = (
+				905E390C2ADD69990011719B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 905E38F02ADD676C0011719B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905E38EE2ADD676C0011719B /* BankApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		905E38ED2ADD676C0011719B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E38FF2ADD676D0011719B /* LaunchScreen.storyboard in Resources */,
+				905E392F2ADD758D0011719B /* ListCell.xib in Resources */,
+				905E39152ADD6CBA0011719B /* registration.json in Resources */,
+				905E38FC2ADD676D0011719B /* Assets.xcassets in Resources */,
+				905E38FA2ADD676C0011719B /* Main.storyboard in Resources */,
+				905E39442ADDBE5B0011719B /* cardRegister.json in Resources */,
+				905E393A2ADD7A040011719B /* profile.json in Resources */,
+				9035201B2AE029BF00EE6CF0 /* transfer.json in Resources */,
+				905E39102ADD6AA20011719B /* BankLogo.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905E38EB2ADD676C0011719B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E39422ADDBCD40011719B /* CardRegistrationController.swift in Sources */,
+				905E391B2ADD6FBC0011719B /* Menu.swift in Sources */,
+				905E39192ADD6CE30011719B /* RegistrationPageController.swift in Sources */,
+				905E39132ADD6B000011719B /* User.swift in Sources */,
+				905E39322ADD77790011719B /* ProfilePageController.swift in Sources */,
+				905E393E2ADD86330011719B /* UserLoginFileManager.swift in Sources */,
+				905E39072ADD678A0011719B /* LoginPageController.swift in Sources */,
+				905E39232ADD71590011719B /* HomePageController.swift in Sources */,
+				905E392E2ADD758D0011719B /* ListCell.swift in Sources */,
+				905E39352ADD77900011719B /* TransferPageController.swift in Sources */,
+				905E38F32ADD676C0011719B /* AppDelegate.swift in Sources */,
+				905E39382ADD77AF0011719B /* CardsPageController.swift in Sources */,
+				905E38F52ADD676C0011719B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		905E38F82ADD676C0011719B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905E38F92ADD676C0011719B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		905E38FD2ADD676D0011719B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905E38FE2ADD676D0011719B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		905E39012ADD676D0011719B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		905E39022ADD676D0011719B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		905E39042ADD676D0011719B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.BankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		905E39052ADD676D0011719B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.BankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905E38EA2ADD676C0011719B /* Build configuration list for PBXProject "BankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905E39012ADD676D0011719B /* Debug */,
+				905E39022ADD676D0011719B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905E39032ADD676D0011719B /* Build configuration list for PBXNativeTarget "BankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905E39042ADD676D0011719B /* Debug */,
+				905E39052ADD676D0011719B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		905E390C2ADD69990011719B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		905E390D2ADD69990011719B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 905E390C2ADD69990011719B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 905E38E72ADD676C0011719B /* Project object */;
+}

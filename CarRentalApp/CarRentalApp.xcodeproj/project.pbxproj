@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904103352AE5444F00309076 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904103342AE5444F00309076 /* TabBarController.swift */; };
+		9041033A2AE54CEA00309076 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904103392AE54CEA00309076 /* Database.swift */; };
+		9041033F2AE54E2E00309076 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9041033E2AE54E2E00309076 /* Realm */; };
+		904103412AE54E2E00309076 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 904103402AE54E2E00309076 /* RealmSwift */; };
+		904103462AE54F4000309076 /* VehiclePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904103452AE54F4000309076 /* VehiclePageController.swift */; };
+		904103482AE54F4F00309076 /* SearchPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904103472AE54F4F00309076 /* SearchPageController.swift */; };
+		9041034A2AE54F5A00309076 /* AccountPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904103492AE54F5A00309076 /* AccountPageController.swift */; };
+		9041034F2AE55A4B00309076 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041034E2AE55A4B00309076 /* CarModel.swift */; };
+		9063EA8C2AE66452001AFEB9 /* CarListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063EA8A2AE66452001AFEB9 /* CarListCell.swift */; };
+		9063EA8D2AE66452001AFEB9 /* CarListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9063EA8B2AE66452001AFEB9 /* CarListCell.xib */; };
+		90B1642B2AE7CC370084214A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 90B1642A2AE7CC370084214A /* Lottie */; };
+		90B1642D2AE7CCDE0084214A /* underConstruction.json in Resources */ = {isa = PBXBuildFile; fileRef = 90B1642C2AE7CCDE0084214A /* underConstruction.json */; };
+		90C01A6C2AE532B100B73F0F /* LoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C01A6B2AE532B100B73F0F /* LoginPageController.swift */; };
+		90F67C782AE6A58900408F4F /* CategoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F67C762AE6A58900408F4F /* CategoryListCell.swift */; };
+		90F67C792AE6A58900408F4F /* CategoryListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F67C772AE6A58900408F4F /* CategoryListCell.xib */; };
+		FE9D309C2AE3A6040004F029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D309B2AE3A6040004F029 /* AppDelegate.swift */; };
+		FE9D309E2AE3A6040004F029 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D309D2AE3A6040004F029 /* SceneDelegate.swift */; };
+		FE9D30A32AE3A6040004F029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9D30A12AE3A6040004F029 /* Main.storyboard */; };
+		FE9D30A62AE3A6040004F029 /* CarRentalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE9D30A42AE3A6040004F029 /* CarRentalApp.xcdatamodeld */; };
+		FE9D30A82AE3A6060004F029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9D30A72AE3A6060004F029 /* Assets.xcassets */; };
+		FE9D30AB2AE3A6060004F029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9D30A92AE3A6060004F029 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		904103342AE5444F00309076 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		904103392AE54CEA00309076 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		904103452AE54F4000309076 /* VehiclePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclePageController.swift; sourceTree = "<group>"; };
+		904103472AE54F4F00309076 /* SearchPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageController.swift; sourceTree = "<group>"; };
+		904103492AE54F5A00309076 /* AccountPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageController.swift; sourceTree = "<group>"; };
+		9041034E2AE55A4B00309076 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		9063EA8A2AE66452001AFEB9 /* CarListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListCell.swift; sourceTree = "<group>"; };
+		9063EA8B2AE66452001AFEB9 /* CarListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarListCell.xib; sourceTree = "<group>"; };
+		90B1642C2AE7CCDE0084214A /* underConstruction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = underConstruction.json; sourceTree = "<group>"; };
+		90C01A6B2AE532B100B73F0F /* LoginPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageController.swift; sourceTree = "<group>"; };
+		90F67C762AE6A58900408F4F /* CategoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListCell.swift; sourceTree = "<group>"; };
+		90F67C772AE6A58900408F4F /* CategoryListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryListCell.xib; sourceTree = "<group>"; };
+		FE9D30982AE3A6040004F029 /* CarRentalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9D309B2AE3A6040004F029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE9D309D2AE3A6040004F029 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE9D30A22AE3A6040004F029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE9D30A52AE3A6040004F029 /* CarRentalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarRentalApp.xcdatamodel; sourceTree = "<group>"; };
+		FE9D30A72AE3A6060004F029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE9D30AA2AE3A6060004F029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE9D30AC2AE3A6060004F029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE9D30952AE3A6040004F029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904103412AE54E2E00309076 /* RealmSwift in Frameworks */,
+				9041033F2AE54E2E00309076 /* Realm in Frameworks */,
+				90B1642B2AE7CC370084214A /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904103332AE5442200309076 /* Tab Bar  */ = {
+			isa = PBXGroup;
+			children = (
+				904103342AE5444F00309076 /* TabBarController.swift */,
+			);
+			path = "Tab Bar ";
+			sourceTree = "<group>";
+		};
+		904103362AE54B8300309076 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9041034E2AE55A4B00309076 /* CarModel.swift */,
+				904103392AE54CEA00309076 /* Database.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		904103422AE54EFD00309076 /* Vehicle Page Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90F67C752AE6A57700408F4F /* CategoryListCell */,
+				9063EA892AE66440001AFEB9 /* CarListCell */,
+				904103452AE54F4000309076 /* VehiclePageController.swift */,
+			);
+			path = "Vehicle Page Controller";
+			sourceTree = "<group>";
+		};
+		904103432AE54F1F00309076 /* Search Page Controller */ = {
+			isa = PBXGroup;
+			children = (
+				904103472AE54F4F00309076 /* SearchPageController.swift */,
+			);
+			path = "Search Page Controller";
+			sourceTree = "<group>";
+		};
+		904103442AE54F2800309076 /* Account Page Controller */ = {
+			isa = PBXGroup;
+			children = (
+				904103492AE54F5A00309076 /* AccountPageController.swift */,
+			);
+			path = "Account Page Controller";
+			sourceTree = "<group>";
+		};
+		9041034B2AE54F6200309076 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				904103422AE54EFD00309076 /* Vehicle Page Controller */,
+				904103432AE54F1F00309076 /* Search Page Controller */,
+				904103442AE54F2800309076 /* Account Page Controller */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		9063EA892AE66440001AFEB9 /* CarListCell */ = {
+			isa = PBXGroup;
+			children = (
+				9063EA8A2AE66452001AFEB9 /* CarListCell.swift */,
+				9063EA8B2AE66452001AFEB9 /* CarListCell.xib */,
+			);
+			path = CarListCell;
+			sourceTree = "<group>";
+		};
+		90C01A6A2AE532A200B73F0F /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				90C01A6B2AE532B100B73F0F /* LoginPageController.swift */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		90F67C752AE6A57700408F4F /* CategoryListCell */ = {
+			isa = PBXGroup;
+			children = (
+				90F67C762AE6A58900408F4F /* CategoryListCell.swift */,
+				90F67C772AE6A58900408F4F /* CategoryListCell.xib */,
+			);
+			path = CategoryListCell;
+			sourceTree = "<group>";
+		};
+		FE9D308F2AE3A6040004F029 = {
+			isa = PBXGroup;
+			children = (
+				FE9D309A2AE3A6040004F029 /* CarRentalApp */,
+				FE9D30992AE3A6040004F029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9D30992AE3A6040004F029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9D30982AE3A6040004F029 /* CarRentalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9D309A2AE3A6040004F029 /* CarRentalApp */ = {
+			isa = PBXGroup;
+			children = (
+				90C01A6A2AE532A200B73F0F /* Login Page */,
+				9041034B2AE54F6200309076 /* Home Page */,
+				904103362AE54B8300309076 /* Data Manager */,
+				904103332AE5442200309076 /* Tab Bar  */,
+				FE9D309B2AE3A6040004F029 /* AppDelegate.swift */,
+				FE9D309D2AE3A6040004F029 /* SceneDelegate.swift */,
+				FE9D30A12AE3A6040004F029 /* Main.storyboard */,
+				FE9D30A72AE3A6060004F029 /* Assets.xcassets */,
+				FE9D30A92AE3A6060004F029 /* LaunchScreen.storyboard */,
+				FE9D30AC2AE3A6060004F029 /* Info.plist */,
+				FE9D30A42AE3A6040004F029 /* CarRentalApp.xcdatamodeld */,
+				90B1642C2AE7CCDE0084214A /* underConstruction.json */,
+			);
+			path = CarRentalApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE9D30972AE3A6040004F029 /* CarRentalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9D30AF2AE3A6060004F029 /* Build configuration list for PBXNativeTarget "CarRentalApp" */;
+			buildPhases = (
+				FE9D30942AE3A6040004F029 /* Sources */,
+				FE9D30952AE3A6040004F029 /* Frameworks */,
+				FE9D30962AE3A6040004F029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarRentalApp;
+			packageProductDependencies = (
+				9041033E2AE54E2E00309076 /* Realm */,
+				904103402AE54E2E00309076 /* RealmSwift */,
+				90B1642A2AE7CC370084214A /* Lottie */,
+			);
+			productName = CarRentalApp;
+			productReference = FE9D30982AE3A6040004F029 /* CarRentalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9D30902AE3A6040004F029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FE9D30972AE3A6040004F029 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FE9D30932AE3A6040004F029 /* Build configuration list for PBXProject "CarRentalApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE9D308F2AE3A6040004F029;
+			packageReferences = (
+				9041033D2AE54E2E00309076 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				90B164292AE7CC370084214A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = FE9D30992AE3A6040004F029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE9D30972AE3A6040004F029 /* CarRentalApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE9D30962AE3A6040004F029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9D30AB2AE3A6060004F029 /* LaunchScreen.storyboard in Resources */,
+				90B1642D2AE7CCDE0084214A /* underConstruction.json in Resources */,
+				90F67C792AE6A58900408F4F /* CategoryListCell.xib in Resources */,
+				FE9D30A82AE3A6060004F029 /* Assets.xcassets in Resources */,
+				9063EA8D2AE66452001AFEB9 /* CarListCell.xib in Resources */,
+				FE9D30A32AE3A6040004F029 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE9D30942AE3A6040004F029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9041033A2AE54CEA00309076 /* Database.swift in Sources */,
+				90C01A6C2AE532B100B73F0F /* LoginPageController.swift in Sources */,
+				FE9D309C2AE3A6040004F029 /* AppDelegate.swift in Sources */,
+				9041034A2AE54F5A00309076 /* AccountPageController.swift in Sources */,
+				9063EA8C2AE66452001AFEB9 /* CarListCell.swift in Sources */,
+				9041034F2AE55A4B00309076 /* CarModel.swift in Sources */,
+				904103352AE5444F00309076 /* TabBarController.swift in Sources */,
+				FE9D30A62AE3A6040004F029 /* CarRentalApp.xcdatamodeld in Sources */,
+				90F67C782AE6A58900408F4F /* CategoryListCell.swift in Sources */,
+				FE9D309E2AE3A6040004F029 /* SceneDelegate.swift in Sources */,
+				904103462AE54F4000309076 /* VehiclePageController.swift in Sources */,
+				904103482AE54F4F00309076 /* SearchPageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE9D30A12AE3A6040004F029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE9D30A22AE3A6040004F029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE9D30A92AE3A6060004F029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE9D30AA2AE3A6060004F029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE9D30AD2AE3A6060004F029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE9D30AE2AE3A6060004F029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE9D30B02AE3A6060004F029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B578UH7952;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarRentalApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shamkhal.CarRentalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE9D30B12AE3A6060004F029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B578UH7952;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarRentalApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shamkhal.CarRentalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE9D30932AE3A6040004F029 /* Build configuration list for PBXProject "CarRentalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9D30AD2AE3A6060004F029 /* Debug */,
+				FE9D30AE2AE3A6060004F029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9D30AF2AE3A6060004F029 /* Build configuration list for PBXNativeTarget "CarRentalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9D30B02AE3A6060004F029 /* Debug */,
+				FE9D30B12AE3A6060004F029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9041033D2AE54E2E00309076 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		90B164292AE7CC370084214A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9041033E2AE54E2E00309076 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9041033D2AE54E2E00309076 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		904103402AE54E2E00309076 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9041033D2AE54E2E00309076 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		90B1642A2AE7CC370084214A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90B164292AE7CC370084214A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FE9D30A42AE3A6040004F029 /* CarRentalApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE9D30A52AE3A6040004F029 /* CarRentalApp.xcdatamodel */,
+			);
+			currentVersion = FE9D30A52AE3A6040004F029 /* CarRentalApp.xcdatamodel */;
+			path = CarRentalApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE9D30902AE3A6040004F029 /* Project object */;
+}

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SDc-zJ-jtj">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Page Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginPageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginPageController" customModule="BankApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfy-qa-YyU" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="16" y="103" width="361" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="rFx-4p-kVy"/>
+                                    <constraint firstAttribute="width" constant="361" id="z0M-6N-vZ2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="BankLogo"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="4IA-u5-LTo">
+                                <rect key="frame" x="61.666666666666657" y="271" width="270" height="184"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tDD-oI-Swm">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cd4-sg-Atl">
+                                        <rect key="frame" x="0.0" y="50" width="270" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTZ-Ze-qKH">
+                                        <rect key="frame" x="0.0" y="100" width="270" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Login">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KYC-7g-TcV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cM2-bu-lpZ">
+                                        <rect key="frame" x="0.0" y="150" width="270" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Register">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="baseForegroundColor" systemColor="darkTextColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="registerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eCx-9e-4eR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="mU7-Gx-iOn"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4IA-u5-LTo" firstAttribute="centerX" secondItem="mfy-qa-YyU" secondAttribute="centerX" id="1NO-Id-Dbn"/>
+                            <constraint firstItem="mfy-qa-YyU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ddq-8p-2cJ"/>
+                            <constraint firstItem="4IA-u5-LTo" firstAttribute="top" secondItem="mfy-qa-YyU" secondAttribute="bottom" constant="8" symbolic="YES" id="HjO-Ja-GSc"/>
+                            <constraint firstItem="mfy-qa-YyU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="deB-dg-Gpo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Mp-WK-CHb"/>
+                    <connections>
+                        <outlet property="bankLogoAnimation" destination="mfy-qa-YyU" id="muO-re-xvo"/>
+                        <outlet property="loginEmailTextField" destination="tDD-oI-Swm" id="bXj-Tk-eJ9"/>
+                        <outlet property="loginPasswordTextField" destination="cd4-sg-Atl" id="Tu4-UR-FVO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962.59541984732823" y="3.5211267605633805"/>
+        </scene>
+        <!--Registration Page Controller-->
+        <scene sceneID="eFc-b5-A31">
+            <objects>
+                <viewController storyboardIdentifier="RegistrationPageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qCK-ud-aTz" customClass="RegistrationPageController" customModule="BankApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pUp-TD-zgx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l4e-Ej-eug" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="76.666666666666686" y="59" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="VlD-zG-Qf2"/>
+                                    <constraint firstAttribute="height" constant="128" id="fy3-mm-ivX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="registration"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hoe-qv-qWb">
+                                <rect key="frame" x="61.666666666666657" y="195" width="270" height="284"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fullname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ip1-g4-4G9">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l84-0T-izE">
+                                        <rect key="frame" x="0.0" y="50" width="270" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CQ5-E6-6OX">
+                                        <rect key="frame" x="0.0" y="100" width="270" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birth date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tz8-s7-gM5">
+                                        <rect key="frame" x="0.0" y="150" width="270" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JHA-7y-5vL">
+                                        <rect key="frame" x="0.0" y="200" width="270" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2D-jT-xXy">
+                                        <rect key="frame" x="0.0" y="250" width="270" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Register">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="registerButton:" destination="qCK-ud-aTz" eventType="touchUpInside" id="kst-mw-cfr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="5Bw-Gh-Kr9"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hQC-z4-7h3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hoe-qv-qWb" firstAttribute="centerX" secondItem="l4e-Ej-eug" secondAttribute="centerX" id="hFR-sH-osW"/>
+                            <constraint firstItem="l4e-Ej-eug" firstAttribute="centerX" secondItem="hQC-z4-7h3" secondAttribute="centerX" id="iKI-8i-C90"/>
+                            <constraint firstItem="hoe-qv-qWb" firstAttribute="top" secondItem="l4e-Ej-eug" secondAttribute="bottom" constant="8" symbolic="YES" id="oXu-Jm-mIJ"/>
+                            <constraint firstItem="l4e-Ej-eug" firstAttribute="top" secondItem="hQC-z4-7h3" secondAttribute="top" id="tVd-AM-0xi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="birthdateTextField" destination="Tz8-s7-gM5" id="4xO-W3-SZS"/>
+                        <outlet property="emailTextField" destination="l84-0T-izE" id="8tf-6X-pmP"/>
+                        <outlet property="fullnameTextField" destination="ip1-g4-4G9" id="oVM-f9-Khg"/>
+                        <outlet property="passwordTextField" destination="JHA-7y-5vL" id="dlR-rS-pa5"/>
+                        <outlet property="phonenumberTextField" destination="CQ5-E6-6OX" id="REQ-JP-Sg1"/>
+                        <outlet property="registrationView" destination="l4e-Ej-eug" id="1Vz-hs-dQc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0cw-tu-UDG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963" y="670"/>
+        </scene>
+        <!--Home Page Controller-->
+        <scene sceneID="6iS-xq-bXu">
+            <objects>
+                <viewController storyboardIdentifier="HomePageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="C4b-FC-GHi" customClass="HomePageController" customModule="BankApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UVz-UJ-lmZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qmS-ta-DJA">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="C4b-FC-GHi" id="Ge9-Nx-HqJ"/>
+                                    <outlet property="delegate" destination="C4b-FC-GHi" id="tpX-da-ok1"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HtD-HO-4cl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qmS-ta-DJA" firstAttribute="leading" secondItem="HtD-HO-4cl" secondAttribute="leading" id="2sH-Ox-gOf"/>
+                            <constraint firstItem="HtD-HO-4cl" firstAttribute="trailing" secondItem="qmS-ta-DJA" secondAttribute="trailing" id="DBa-fq-3uD"/>
+                            <constraint firstItem="qmS-ta-DJA" firstAttribute="top" secondItem="HtD-HO-4cl" secondAttribute="top" id="Uu6-Nt-j4P"/>
+                            <constraint firstItem="HtD-HO-4cl" firstAttribute="bottom" secondItem="qmS-ta-DJA" secondAttribute="bottom" id="pEE-Dp-1ac"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IRq-I4-ZPd"/>
+                    <connections>
+                        <outlet property="table" destination="qmS-ta-DJA" id="Bsm-rF-nha"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ttm-Yh-0EF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3327.480916030534" y="3.5211267605633805"/>
+        </scene>
+        <!--Profile Page Controller-->
+        <scene sceneID="0C6-RH-p0E">
+            <objects>
+                <viewController storyboardIdentifier="ProfilePageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JY4-yW-3XJ" customClass="ProfilePageController" customModule="BankApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Say-Jj-Qnb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Id-RB-oqk" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="16" y="59" width="361" height="160"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="FVx-hr-KOv"/>
+                                    <constraint firstAttribute="height" constant="160" id="IGc-4C-jXS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="profile"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="at6-lE-9kc">
+                                <rect key="frame" x="16" y="265" width="361" height="129.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fullname" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiE-1Y-NHg">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNL-Rk-EeZ">
+                                        <rect key="frame" x="0.0" y="36.333333333333314" width="361" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mna-s6-MTA" userLabel="Phone number">
+                                        <rect key="frame" x="0.0" y="72.666666666666686" width="361" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthdate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYr-U2-BEj">
+                                        <rect key="frame" x="0.0" y="109" width="361" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="QyA-SZ-9OH"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbh-ZW-a3a">
+                                <rect key="frame" x="16" y="784.66666666666663" width="361" height="33.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="361" id="1Vs-6O-JG1"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="logoutButton:" destination="JY4-yW-3XJ" eventType="touchUpInside" id="DQH-TB-Am0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6oa-64-T9y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="at6-lE-9kc" firstAttribute="centerX" secondItem="5Id-RB-oqk" secondAttribute="centerX" id="2E3-PU-tAg"/>
+                            <constraint firstItem="5Id-RB-oqk" firstAttribute="centerX" secondItem="6oa-64-T9y" secondAttribute="centerX" id="4w6-Jd-kC3"/>
+                            <constraint firstItem="5Id-RB-oqk" firstAttribute="top" secondItem="6oa-64-T9y" secondAttribute="top" id="6ug-Dm-cbJ"/>
+                            <constraint firstItem="Kbh-ZW-a3a" firstAttribute="centerX" secondItem="6oa-64-T9y" secondAttribute="centerX" id="BFK-s4-CUg"/>
+                            <constraint firstItem="wYr-U2-BEj" firstAttribute="centerX" secondItem="5Id-RB-oqk" secondAttribute="centerX" id="RSK-Rb-T0k"/>
+                            <constraint firstItem="6oa-64-T9y" firstAttribute="bottom" secondItem="Kbh-ZW-a3a" secondAttribute="bottom" id="hI8-9T-K4R"/>
+                            <constraint firstItem="at6-lE-9kc" firstAttribute="top" secondItem="5Id-RB-oqk" secondAttribute="bottom" constant="46" id="pDc-wD-iTY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="birthdateLabel" destination="wYr-U2-BEj" id="BX7-bq-tTD"/>
+                        <outlet property="emailLabel" destination="pNL-Rk-EeZ" id="8QK-kC-nt9"/>
+                        <outlet property="fullnameLabel" destination="eiE-1Y-NHg" id="Tnk-Jf-0c9"/>
+                        <outlet property="phonenumberLabel" destination="Mna-s6-MTA" id="T0p-Fk-RVu"/>
+                        <outlet property="profileView" destination="5Id-RB-oqk" id="mWC-DM-Irw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bUa-We-ZHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4062" y="4"/>
+        </scene>
+        <!--Transfer Page Controller-->
+        <scene sceneID="o5x-C0-SCE">
+            <objects>
+                <viewController storyboardIdentifier="TransferPageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xEe-AW-CLL" customClass="TransferPageController" customModule="BankApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XM2-Lt-MTX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" restorationIdentifier="LottieAnimationView" translatesAutoresizingMaskIntoConstraints="NO" id="vEf-px-tpH" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="16" y="59" width="361" height="140"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="ZIE-tt-fWn"/>
+                                    <constraint firstAttribute="height" constant="140" id="kyF-Pf-jZ4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="transfer"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="M7Q-sE-YpV">
+                                <rect key="frame" x="31.666666666666657" y="233" width="330" height="133.33333333333337"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gI6-KI-4fC">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ruc-DB-nf3">
+                                        <rect key="frame" x="0.0" y="50" width="330" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ws-FA-jW2">
+                                        <rect key="frame" x="0.0" y="100" width="330" height="33.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Transfer">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="transferButton:" destination="xEe-AW-CLL" eventType="touchUpInside" id="e9I-Ch-Hoh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="C1c-3J-U8a"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zLn-rb-Loi"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vEf-px-tpH" firstAttribute="centerX" secondItem="zLn-rb-Loi" secondAttribute="centerX" id="KfI-FB-O5L"/>
+                            <constraint firstItem="M7Q-sE-YpV" firstAttribute="top" secondItem="vEf-px-tpH" secondAttribute="bottom" constant="33.999999999999972" id="gan-j4-cqu"/>
+                            <constraint firstItem="M7Q-sE-YpV" firstAttribute="centerX" secondItem="vEf-px-tpH" secondAttribute="centerX" id="gfR-Ve-SJn"/>
+                            <constraint firstItem="vEf-px-tpH" firstAttribute="top" secondItem="zLn-rb-Loi" secondAttribute="top" id="sNc-3q-G5H"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="amountTextField" destination="ruc-DB-nf3" id="Kn8-TA-DFK"/>
+                        <outlet property="cardNumberTextField" destination="gI6-KI-4fC" id="0q6-vX-fZa"/>
+                        <outlet property="transferView" destination="vEf-px-tpH" id="FdC-0O-iht"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZoN-dl-MoG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4785" y="4"/>
+        </scene>
+        <!--Cards Page Controller-->
+        <scene sceneID="NHJ-J3-86Q">
+            <objects>
+                <viewController storyboardIdentifier="CardsPageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cIb-jf-SbN" customClass="CardsPageController" customModule="BankApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KUd-gI-wlQ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Rfl-kp-GEy">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cIb-jf-SbN" id="QhG-qh-7fd"/>
+                                    <outlet property="delegate" destination="cIb-jf-SbN" id="zJt-5h-zOQ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bix-y3-fvY"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Rfl-kp-GEy" firstAttribute="leading" secondItem="Bix-y3-fvY" secondAttribute="leading" id="3S6-8O-Xad"/>
+                            <constraint firstItem="Bix-y3-fvY" firstAttribute="trailing" secondItem="Rfl-kp-GEy" secondAttribute="trailing" id="ARG-ft-bWw"/>
+                            <constraint firstItem="Rfl-kp-GEy" firstAttribute="top" secondItem="Bix-y3-fvY" secondAttribute="top" id="Uq9-GX-sSL"/>
+                            <constraint firstItem="Bix-y3-fvY" firstAttribute="bottom" secondItem="Rfl-kp-GEy" secondAttribute="bottom" id="aaJ-pd-2gg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="table" destination="Rfl-kp-GEy" id="HOL-NU-iNh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hgg-OQ-6pG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5507.6335877862593" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Nkc-JT-L8Z">
+            <objects>
+                <navigationController storyboardIdentifier="loginNav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SDc-zJ-jtj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5de-7Y-mrQ">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZpK-0h-y7Q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Td-Vn-Is7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35.877862595419849" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IVr-PM-Kll">
+            <objects>
+                <navigationController storyboardIdentifier="homeNav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ybk-u2-Fv8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fo3-no-frX">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C4b-FC-GHi" kind="relationship" relationship="rootViewController" id="1ET-bw-e2K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nzh-nO-0Et" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2400.7633587786258" y="3.5211267605633805"/>
+        </scene>
+        <!--Card Registration Controller-->
+        <scene sceneID="rbg-1m-f2Y">
+            <objects>
+                <viewController storyboardIdentifier="CardRegistrationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6xM-Ik-1SX" customClass="CardRegistrationController" customModule="BankApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="twn-fS-yTF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" restorationIdentifier="LottieAnimationView" translatesAutoresizingMaskIntoConstraints="NO" id="p8m-Uz-h5c" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="16" y="59" width="361" height="140"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="4Sv-n8-D2l"/>
+                                    <constraint firstAttribute="height" constant="140" id="mze-bc-EOa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="cardRegister"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SpK-nr-ucu">
+                                <rect key="frame" x="31.666666666666657" y="233" width="330" height="233.33333333333337"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Card name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ebx-D7-fjQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Card number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wdI-ra-eYt">
+                                        <rect key="frame" x="0.0" y="50" width="330" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Expiration date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tzb-s1-JWI">
+                                        <rect key="frame" x="0.0" y="100" width="330" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CVC2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OCv-Xr-CdI">
+                                        <rect key="frame" x="0.0" y="150" width="330" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gX1-kE-5j8">
+                                        <rect key="frame" x="0.0" y="200" width="330" height="33.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Create">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="createButton:" destination="6xM-Ik-1SX" eventType="touchUpInside" id="5dZ-L8-N42"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="orm-94-BZA"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Sid-Cj-de6"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SpK-nr-ucu" firstAttribute="centerX" secondItem="p8m-Uz-h5c" secondAttribute="centerX" id="YUr-bu-70Z"/>
+                            <constraint firstItem="p8m-Uz-h5c" firstAttribute="top" secondItem="Sid-Cj-de6" secondAttribute="top" id="jbZ-1c-b1i"/>
+                            <constraint firstItem="p8m-Uz-h5c" firstAttribute="centerX" secondItem="Sid-Cj-de6" secondAttribute="centerX" id="lvU-Hz-CN0"/>
+                            <constraint firstItem="SpK-nr-ucu" firstAttribute="top" secondItem="p8m-Uz-h5c" secondAttribute="bottom" constant="33.999999999999972" id="txd-IX-ccw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardCVV2" destination="OCv-Xr-CdI" id="Ybc-vw-BnI"/>
+                        <outlet property="cardDate" destination="tzb-s1-JWI" id="qqs-Sw-DmW"/>
+                        <outlet property="cardNameTextField" destination="Ebx-D7-fjQ" id="z1y-ks-rI2"/>
+                        <outlet property="cardNumberTextField" destination="wdI-ra-eYt" id="UaL-Dv-y5C"/>
+                        <outlet property="cardRegView" destination="p8m-Uz-h5c" id="uwY-2u-BeE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9wm-uL-g7Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6262" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

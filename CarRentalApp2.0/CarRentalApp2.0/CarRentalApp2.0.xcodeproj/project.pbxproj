@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900FB6CB2AEF83FC00B4BAD3 /* LoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6CA2AEF83FC00B4BAD3 /* LoginPageController.swift */; };
+		900FB6D02AEF842C00B4BAD3 /* VehiclePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6CF2AEF842C00B4BAD3 /* VehiclePageController.swift */; };
+		900FB6D22AEF843A00B4BAD3 /* SearchPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6D12AEF843A00B4BAD3 /* SearchPageController.swift */; };
+		900FB6D72AEF846D00B4BAD3 /* AccountPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6D62AEF846D00B4BAD3 /* AccountPageController.swift */; };
+		900FB6DC2AEF8B7800B4BAD3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6DB2AEF8B7800B4BAD3 /* TabBarController.swift */; };
+		900FB6DF2AEF903C00B4BAD3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 900FB6DE2AEF903C00B4BAD3 /* Realm */; };
+		900FB6E12AEF903C00B4BAD3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 900FB6E02AEF903C00B4BAD3 /* RealmSwift */; };
+		900FB6E32AEF904D00B4BAD3 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6E22AEF904D00B4BAD3 /* CarModel.swift */; };
+		900FB6E52AEF90B000B4BAD3 /* RealmFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6E42AEF90B000B4BAD3 /* RealmFunctions.swift */; };
+		900FB6EA2AEF914500B4BAD3 /* CarListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6E82AEF914500B4BAD3 /* CarListCell.swift */; };
+		900FB6EB2AEF914500B4BAD3 /* CarListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 900FB6E92AEF914500B4BAD3 /* CarListCell.xib */; };
+		900FB6EE2AEF9D8D00B4BAD3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 900FB6ED2AEF9D8D00B4BAD3 /* Lottie */; };
+		900FB6F02AEF9DD100B4BAD3 /* underConstruction.json in Resources */ = {isa = PBXBuildFile; fileRef = 900FB6EF2AEF9DD100B4BAD3 /* underConstruction.json */; };
+		900FB6FC2AEFD38200B4BAD3 /* CarCategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FB6FB2AEFD38200B4BAD3 /* CarCategoryHeader.swift */; };
+		901269FA2AEFDCDA004E8F8A /* CarCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901269F92AEFDCDA004E8F8A /* CarCategoryCell.swift */; };
+		901B39BD2AEF814600279706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B39BC2AEF814600279706 /* AppDelegate.swift */; };
+		901B39BF2AEF814600279706 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B39BE2AEF814600279706 /* SceneDelegate.swift */; };
+		901B39C42AEF814600279706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901B39C22AEF814600279706 /* Main.storyboard */; };
+		901B39C62AEF814700279706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901B39C52AEF814700279706 /* Assets.xcassets */; };
+		901B39C92AEF814700279706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901B39C72AEF814700279706 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900FB6CA2AEF83FC00B4BAD3 /* LoginPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageController.swift; sourceTree = "<group>"; };
+		900FB6CF2AEF842C00B4BAD3 /* VehiclePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclePageController.swift; sourceTree = "<group>"; };
+		900FB6D12AEF843A00B4BAD3 /* SearchPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageController.swift; sourceTree = "<group>"; };
+		900FB6D62AEF846D00B4BAD3 /* AccountPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageController.swift; sourceTree = "<group>"; };
+		900FB6DB2AEF8B7800B4BAD3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		900FB6E22AEF904D00B4BAD3 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		900FB6E42AEF90B000B4BAD3 /* RealmFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFunctions.swift; sourceTree = "<group>"; };
+		900FB6E82AEF914500B4BAD3 /* CarListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListCell.swift; sourceTree = "<group>"; };
+		900FB6E92AEF914500B4BAD3 /* CarListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarListCell.xib; sourceTree = "<group>"; };
+		900FB6EF2AEF9DD100B4BAD3 /* underConstruction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = underConstruction.json; sourceTree = "<group>"; };
+		900FB6FB2AEFD38200B4BAD3 /* CarCategoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCategoryHeader.swift; sourceTree = "<group>"; };
+		901269F92AEFDCDA004E8F8A /* CarCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCategoryCell.swift; sourceTree = "<group>"; };
+		901B39B92AEF814600279706 /* CarRentalApp2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentalApp2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		901B39BC2AEF814600279706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		901B39BE2AEF814600279706 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		901B39C32AEF814600279706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		901B39C52AEF814700279706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		901B39C82AEF814700279706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		901B39CA2AEF814700279706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		901B39B62AEF814600279706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FB6E12AEF903C00B4BAD3 /* RealmSwift in Frameworks */,
+				900FB6DF2AEF903C00B4BAD3 /* Realm in Frameworks */,
+				900FB6EE2AEF9D8D00B4BAD3 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900FB6CC2AEF840100B4BAD3 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6D32AEF844800B4BAD3 /* Vehicle Page */,
+				900FB6D42AEF845200B4BAD3 /* Search Page */,
+				900FB6D52AEF845B00B4BAD3 /* Account Page */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		900FB6D32AEF844800B4BAD3 /* Vehicle Page */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6CF2AEF842C00B4BAD3 /* VehiclePageController.swift */,
+			);
+			path = "Vehicle Page";
+			sourceTree = "<group>";
+		};
+		900FB6D42AEF845200B4BAD3 /* Search Page */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6D12AEF843A00B4BAD3 /* SearchPageController.swift */,
+			);
+			path = "Search Page";
+			sourceTree = "<group>";
+		};
+		900FB6D52AEF845B00B4BAD3 /* Account Page */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6D62AEF846D00B4BAD3 /* AccountPageController.swift */,
+			);
+			path = "Account Page";
+			sourceTree = "<group>";
+		};
+		900FB6D82AEF847D00B4BAD3 /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6CA2AEF83FC00B4BAD3 /* LoginPageController.swift */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		900FB6D92AEF848700B4BAD3 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6E22AEF904D00B4BAD3 /* CarModel.swift */,
+				900FB6E42AEF90B000B4BAD3 /* RealmFunctions.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		900FB6DA2AEF8B5300B4BAD3 /* Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6DB2AEF8B7800B4BAD3 /* TabBarController.swift */,
+			);
+			path = "Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		900FB6E62AEF912300B4BAD3 /* XIB Cells */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6E72AEF912A00B4BAD3 /* CarList */,
+			);
+			path = "XIB Cells";
+			sourceTree = "<group>";
+		};
+		900FB6E72AEF912A00B4BAD3 /* CarList */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6E82AEF914500B4BAD3 /* CarListCell.swift */,
+				900FB6E92AEF914500B4BAD3 /* CarListCell.xib */,
+			);
+			path = CarList;
+			sourceTree = "<group>";
+		};
+		900FB6F62AEFD34800B4BAD3 /* CarCategoryReusableCell */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6FB2AEFD38200B4BAD3 /* CarCategoryHeader.swift */,
+				901269F92AEFDCDA004E8F8A /* CarCategoryCell.swift */,
+			);
+			path = CarCategoryReusableCell;
+			sourceTree = "<group>";
+		};
+		901B39B02AEF814600279706 = {
+			isa = PBXGroup;
+			children = (
+				901B39BB2AEF814600279706 /* CarRentalApp2.0 */,
+				901B39BA2AEF814600279706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		901B39BA2AEF814600279706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				901B39B92AEF814600279706 /* CarRentalApp2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		901B39BB2AEF814600279706 /* CarRentalApp2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				900FB6D82AEF847D00B4BAD3 /* Login Page */,
+				900FB6CC2AEF840100B4BAD3 /* Home Page */,
+				900FB6D92AEF848700B4BAD3 /* Data Manager */,
+				900FB6DA2AEF8B5300B4BAD3 /* Tab Bar Controller */,
+				900FB6F62AEFD34800B4BAD3 /* CarCategoryReusableCell */,
+				900FB6E62AEF912300B4BAD3 /* XIB Cells */,
+				901B39BC2AEF814600279706 /* AppDelegate.swift */,
+				901B39BE2AEF814600279706 /* SceneDelegate.swift */,
+				901B39C22AEF814600279706 /* Main.storyboard */,
+				901B39C52AEF814700279706 /* Assets.xcassets */,
+				901B39C72AEF814700279706 /* LaunchScreen.storyboard */,
+				901B39CA2AEF814700279706 /* Info.plist */,
+				900FB6EF2AEF9DD100B4BAD3 /* underConstruction.json */,
+			);
+			path = CarRentalApp2.0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		901B39B82AEF814600279706 /* CarRentalApp2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 901B39CD2AEF814700279706 /* Build configuration list for PBXNativeTarget "CarRentalApp2.0" */;
+			buildPhases = (
+				901B39B52AEF814600279706 /* Sources */,
+				901B39B62AEF814600279706 /* Frameworks */,
+				901B39B72AEF814600279706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarRentalApp2.0;
+			packageProductDependencies = (
+				900FB6DE2AEF903C00B4BAD3 /* Realm */,
+				900FB6E02AEF903C00B4BAD3 /* RealmSwift */,
+				900FB6ED2AEF9D8D00B4BAD3 /* Lottie */,
+			);
+			productName = CarRentalApp2.0;
+			productReference = 901B39B92AEF814600279706 /* CarRentalApp2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		901B39B12AEF814600279706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					901B39B82AEF814600279706 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 901B39B42AEF814600279706 /* Build configuration list for PBXProject "CarRentalApp2.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 901B39B02AEF814600279706;
+			packageReferences = (
+				900FB6DD2AEF903C00B4BAD3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				900FB6EC2AEF9D8D00B4BAD3 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 901B39BA2AEF814600279706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				901B39B82AEF814600279706 /* CarRentalApp2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		901B39B72AEF814600279706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901B39C92AEF814700279706 /* LaunchScreen.storyboard in Resources */,
+				901B39C62AEF814700279706 /* Assets.xcassets in Resources */,
+				900FB6F02AEF9DD100B4BAD3 /* underConstruction.json in Resources */,
+				900FB6EB2AEF914500B4BAD3 /* CarListCell.xib in Resources */,
+				901B39C42AEF814600279706 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		901B39B52AEF814600279706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FB6E32AEF904D00B4BAD3 /* CarModel.swift in Sources */,
+				900FB6D72AEF846D00B4BAD3 /* AccountPageController.swift in Sources */,
+				900FB6EA2AEF914500B4BAD3 /* CarListCell.swift in Sources */,
+				900FB6E52AEF90B000B4BAD3 /* RealmFunctions.swift in Sources */,
+				900FB6CB2AEF83FC00B4BAD3 /* LoginPageController.swift in Sources */,
+				901B39BD2AEF814600279706 /* AppDelegate.swift in Sources */,
+				900FB6FC2AEFD38200B4BAD3 /* CarCategoryHeader.swift in Sources */,
+				900FB6D22AEF843A00B4BAD3 /* SearchPageController.swift in Sources */,
+				900FB6DC2AEF8B7800B4BAD3 /* TabBarController.swift in Sources */,
+				901B39BF2AEF814600279706 /* SceneDelegate.swift in Sources */,
+				901269FA2AEFDCDA004E8F8A /* CarCategoryCell.swift in Sources */,
+				900FB6D02AEF842C00B4BAD3 /* VehiclePageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		901B39C22AEF814600279706 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901B39C32AEF814600279706 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		901B39C72AEF814700279706 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901B39C82AEF814700279706 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		901B39CB2AEF814700279706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		901B39CC2AEF814700279706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		901B39CE2AEF814700279706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarRentalApp2.0/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.CarRentalApp2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		901B39CF2AEF814700279706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarRentalApp2.0/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.CarRentalApp2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		901B39B42AEF814600279706 /* Build configuration list for PBXProject "CarRentalApp2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901B39CB2AEF814700279706 /* Debug */,
+				901B39CC2AEF814700279706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		901B39CD2AEF814700279706 /* Build configuration list for PBXNativeTarget "CarRentalApp2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901B39CE2AEF814700279706 /* Debug */,
+				901B39CF2AEF814700279706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		900FB6DD2AEF903C00B4BAD3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		900FB6EC2AEF9D8D00B4BAD3 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		900FB6DE2AEF903C00B4BAD3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 900FB6DD2AEF903C00B4BAD3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		900FB6E02AEF903C00B4BAD3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 900FB6DD2AEF903C00B4BAD3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		900FB6ED2AEF9D8D00B4BAD3 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 900FB6EC2AEF9D8D00B4BAD3 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 901B39B12AEF814600279706 /* Project object */;
+}
